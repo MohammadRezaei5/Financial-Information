@@ -1,4 +1,4 @@
-// ------------------------------راه حل دوم، بهینه تر (چیزی که با سرچ بیشتر بهش رسیدم)   👇👇👇
+// ------------------------------ The second, more optimal solution (what I found with more searching) 👇👇👇
 
 // ----------------- variables
 const spanIds = [
@@ -23,7 +23,7 @@ fetch("information.json")
     });
   });
 
-// ------------------------------راه حل اول (چیزی که اول به ذهنم رسید)   👇👇👇
+// ------------------------------ The first solution (the first thing that came to my mind) 👇👇👇
 
 // ----------------- variables
 // const taxStatusSpan = document.getElementById("tax-status");
