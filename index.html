@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial Information | اطلاعات مالی</title>
+    <!-- style file -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="sections">
+          <!-- header -->
+          <header>
+            <div class="header-text">اطلاعات مالی</div>
+          </header>
+          <!-- main -->
+          <main>
+            <div class="item">
+              <span>وضعیت تشکیل پرونده مالیاتی</span>
+              <span id="tax-status"></span>
+            </div>
+            <div class="item">
+              <span>درآمد سالانه قبل از مالیات </span>
+              <span> <span id="annual-income"></span> تومان </span>
+            </div>
+            <div class="item">
+              <span>افراد تحت تکفل (غیر همسر)</span>
+              <span id="dependent"></span>
+            </div>
+            <div class="item">
+              <span>وضعیت شغلی</span>
+              <span id="employment-status"></span>
+            </div>
+            <div class="item">
+              <span>کارفرما</span>
+              <span id="employer"></span>
+            </div>
+            <div class="item">
+              <span>اشتغال</span>
+              <span id="occupation"></span>
+            </div>
+            <div class="item">
+              <span>دارایی های قابل سرمایه گذاری خانوار</span>
+              <span> <span id="house-invest"></span> تومان </span>
+            </div>
+          </main>
+          <!-- footer -->
+          <footer>
+            <button class="footer-btn-text">ویرایش اطلاعات مالی</button>
+          </footer>
+        </div>
+      </div>
+      <!-- notice -->
+      <div class="notice">
+        <div class="blob-container">
+          <span class="blob orange"></span>
+          <span class="notice-text">توجه:</span>
+        </div>
+        <p>
+          این یک کارت ساده نیست!!! تمامی ورودی ها از طریق<span
+            class="border-dash"
+            >fetch</span
+          >
+          و فایل<span class="border-dash">information.json</span>
+          گرفته میشوند.
+        </p>
+      </div>
+    </div>
+
+    <!-- js file -->
+    <script src="./main.js"></script>
+  </body>
+</html>
